@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_num1"
+        android:hint="请输入第一个操作数"
+        android:textSize="30sp"
+        android:background="#F1EBC9"
+        />
+    <EditText
+        android:id="@+id/et_num2"
+        android:hint="请输入第一个操作数"
+        android:textSize="30sp"
+        android:background="#F3D0C8"
+        />
+    <TableRow
+        android:layout_weight="2"
+
+        >
+        <Button
+            android:id="@+id/btn_7"
+            android:text="7"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_8"
+            android:text="8"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_9"
+            android:text="9"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_chu"
+            android:text="/"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="2"
+
+        >
+        <Button
+            android:id="@+id/btn_4"
+            android:text="4"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_5"
+            android:text="5"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_6"
+            android:text="6"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_cheng"
+            android:text="*"
+            android:background="#AFDAF0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="2"
+
+        >
+        <Button
+            android:id="@+id/btn_1"
+            android:text="1"
+            android:layout_weight="1"
+          android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_2"
+            android:text="2"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_3"
+            android:text="3"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_jian"
+            android:text="-"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="2"
+
+        >
+        <Button
+            android:id="@+id/btn_0"
+            android:text="0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_dian"
+            android:text="."
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+        <Button
+            android:id="@+id/btn_deng"
+            android:text="="
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/btn_jia"
+            android:text="+"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="40sp"
+            android:background="#AFDAF0"
+            />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:hint="得到计算结果"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="#F1EBC9"
+        />
+
+</TableLayout>
